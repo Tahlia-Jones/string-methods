@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Tahlia Jones
+# date: July 13, 2021
 
 # --------------- Section 1 --------------- #
 
@@ -11,6 +11,11 @@
 #   c. Print the variable in all lower case.
 #   d. Print the variable capitalized (Look to documentation.)
 
+name = 'Tahlia'
+print(name.center(30, '$'))
+print(name.upper())
+print(name.lower())
+print(name.capitalize())
 
 # 2 | String Methods
 #
@@ -19,6 +24,10 @@
 #   b. Find the first instance of the letter b. Print that position.
 #   c. Find the first instance of a word of your choice. Print that position.
 
+text = input('please enter a sentence. ')
+print(text.find('a'))
+print(text.find('e'))
+print(text.find(' is'))
 
 # 3 | String Methods
 #
@@ -26,6 +35,19 @@
 #   a. Find the position of every vowel in text. Save them each to a variable.
 #   b. Using a built-in function, print the position of the vowel that shows up last.
 #   c. Using a built-in function, print the position of the vowel that shows up first.
+
+text = input('please enter a sentence: ')
+text.lower()
+position_of_a = text.find('a')
+print('the postion of a is: ', position_of_a)
+position_of_e = text.find('e')
+print('the postion of a is: ', position_of_e)
+position_of_i = text.find('i')
+print('the postion of a is: ', position_of_i)
+position_of_o = text.find('o')
+print('the postion of a is: ', position_of_o)
+position_of_u = text.find('u')
+print('the postion of a is: ', position_of_u)
 
 
 # 4 | String Indexing
@@ -37,6 +59,11 @@
 #       HINT: There are multiple ways of doing this. Is there a function that we can use that will find
 #           the position of the last letter, or atleast one off from it?
 
+print('\nquestion 4')
+text = input('please enter a sentence')
+print(text[0])
+print(text[1], text[2], text[3])
+print(text[-1])
 
 # 5 | String Slicing
 #
@@ -46,6 +73,7 @@
 #   c. Slice text from 3rd position to end. Print that.
 #   d. Slice text from the beginning to 5 positions before the last character. Print that.
 #       HINT: Use a function to get the last position of the string.
+
 
 
 # 6 | String Slicing
